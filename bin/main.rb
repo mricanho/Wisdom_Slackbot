@@ -1,3 +1,3 @@
 require 'slack-ruby-bot'
-require 'lib/video'
+require 'lib/commands'
 require 'lib/bot'

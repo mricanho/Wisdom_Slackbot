@@ -23,3 +23,5 @@ quotes = {
 
 values = quotes.values
 pick = values[rand(values.size)]
+
+puts pick
