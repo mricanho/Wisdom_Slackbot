@@ -1,6 +1,7 @@
 # rubocop: disable Security/Open
 require 'rss'
 require 'open-uri'
+require_relative 'library'
 
 module WisdomBot
   module Commands
@@ -20,7 +21,19 @@ module WisdomBot
       command 'say_hello' do |client, data, _match|
         client.say(channel: data.channel, text: HelloText.say_hello)
       end
+
+      command 'quote' do |client, data, _match|
+        client.say(channel: data.channel, text: GiveQuote.random_quote)
+      end
     end
+  end
+end
+
+class GiveQuote
+  include Quotes
+  def self.random_quote
+    values = QUOTES.values
+    values[rand(values.size)]
   end
 end
 
