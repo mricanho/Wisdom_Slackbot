@@ -21,4 +21,5 @@ quotes = {
   Q20: 'If you ignore the past, you jeopardize the future.'
 }
 
-puts quotes
+values = quotes.values
+pick = values[rand(values.size)]
