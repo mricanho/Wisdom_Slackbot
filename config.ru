@@ -5,4 +5,4 @@ Dotenv.load
 
 require 'bin/run'
 
-Wisdom_Bot::Bot.run
+WisdomBot::Bot.run

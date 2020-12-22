@@ -1,9 +1,10 @@
+# rubocop: disable Security/Open
 require 'rss'
 require 'open-uri'
 
-module Wisdom_Bot
+module WisdomBot
   module Commands
-    class GetEpisode < SlackRubyBot::Commands::Base
+    class GetVideo < SlackRubyBot::Commands::Base
       command 'get_video' do |client, data, _match|
         url = 'https://www.mysitemapgenerator.com/shareapi/rss/2112252381'
         rss = RSS::Parser.parse(open(url).read, false).items.first
@@ -28,3 +29,5 @@ class HelloText
     "Hello! This is a Miguel Ricaño's bot!"
   end
 end
+
+# rubocop: enable Security/Open

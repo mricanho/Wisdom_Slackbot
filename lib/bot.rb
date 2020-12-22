@@ -1,4 +1,4 @@
-module Wisdom_Bot
+module WisdomBot
   class Bot < SlackRubyBot::Bot
     help do
       title 'Wisdom SlackBot'
