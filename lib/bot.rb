@@ -5,10 +5,26 @@ module WisdomBot
       desc "I'll bring you enlightenment, motivation, and strength whenever you want it"
 
       command :get_video do
-        title 'get_video'
+        title 'I want a video'
         desc 'It gives you a link to a motivational video'
-        long_desc 'Every time you enter the command, it will give you the last video of the channel'
       end
+
+      command :old_video do
+        title 'I want an old video'
+        desc 'It gives you a link to an old motivational video'
+      end
+
+      command :new_video do
+        title 'I want a new video'
+        desc 'It gives you a link to the newest motivational video of the channel'
+      end
+
+      command :quote do
+        title 'I want a quote'
+        desc 'It gives you a short but deep thought'
+      end
+
+      
     end
   end
 end
