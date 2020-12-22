@@ -20,4 +20,3 @@ describe SlackRubyBot::Commands do
     expect(message: "#{SlackRubyBot.config.user} say_hello").to respond_with_slack_message
   end
 end
-
