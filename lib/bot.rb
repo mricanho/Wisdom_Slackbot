@@ -23,8 +23,6 @@ module WisdomBot
         title 'I want a quote'
         desc 'It gives you a short but deep thought'
       end
-
-      
     end
   end
 end
