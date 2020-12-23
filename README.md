@@ -29,9 +29,18 @@ git clone https://github.com/mricanho/Wisdom_Slackbot
 ```
 After this, you have to create a slack channel to set up the bot.
 
-You can achieve it [here](https://github.com/mricanho)
+- You can achieve it [here](https://slack.com/get-started#/create).
 
-https://slack.com/get-started#/create
+Once you have your Slack channel to display the bot, you have to register a bot to get the Slack API Token.
+
+![screenshot](./assets/newbot.jpeg)
+
+- You can achieve it [here](http://slack.com/services/new/bot).
+
+When you completed the step above, you will have the API Token of the new bot.
+
+![screenshot](./assets/newbot_api.jpeg)
+
 
 ### Instructions
 ### Author
