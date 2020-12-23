@@ -20,7 +20,7 @@ The bot can deliver either a video that will help you with an ample spectred of 
 - Puma gem
 - Dotenv gem
 
-### Setup
+### Set up
 
 To run this project locally, please ensure you have Ruby installed on your machine, then clone this repository by running.
 
@@ -43,22 +43,29 @@ When you completed the step above, you will have the API Token of the new bot.
 
 Copy the API Token and go back to your text editor
 
-Create a '.env' file and place the API token in there.
+- Create a '.env' file and place the API token in there.
 
 ![screenshot](./assets/env_file.jpeg)
 
-It's super important that you place 'SLACK_API_TOKEN=' before the API Token.
+- It's super important that you place 'SLACK_API_TOKEN=' before the API Token.
 
 The '.env' file it's connected to the '.gitignore' file that comes with the repository, it will protect your API token, and only you can see it.
 
-Now open your terminal, go to the local directory of your repository and enter 'bundle'.
+- Now open your terminal, go to the local directory of your repository, and enter 'bundle'.
 
 ![screenshot](./assets/bundle.jpeg)
 
 This will install all the gems on your local machine.
 
-The last step is set up the local server, and it's easy with the 
+The last step is to set up the local server, and it's super easy with gems we installed before. 
 
+- Open your terminal, go to the local directory of your repository, and enter 'rackup'.
+
+![screenshot](./assets/rackup.jpeg)
+
+That's it, now your bot is connected to Slack, up and running! 
+
+As long as your terminal is open and running, the bot will work.
 
 ### Instructions
 ### Author
