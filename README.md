@@ -57,7 +57,7 @@ The '.env' file it's connected to the '.gitignore' file that comes with the repo
 
 This will install all the gems on your local machine.
 
-The last step is to set up the local server, and it's super easy with gems we installed before. 
+The last step is to set up the local server, and it's super easy with the gems we installed before. 
 
 - Open your terminal, go to the local directory of your repository, and enter 'rackup'.
 
@@ -68,6 +68,25 @@ That's it, now your bot is connected to Slack, up and running!
 As long as your terminal is open and running, the bot will work.
 
 ### Instructions
+
+Now that the bot is connected to Slack let's see how to interact with it.
+
+Go to the apps in the channel and click on your bot's name.
+
+![screenshot](./assets/apps.jpeg)
+
+The commands for the bot are:
+
+- hello
+- help
+- I want a quote
+- I want a video
+- I want an old video
+- I want a new video
+
+That's it, now go and start the communication with the Wisdom bot, begin with a polite 'hello'.
+
+![screenshot](./assets/hello.jpeg)
 ### Author
 
 👤 <b>Miguel Ricaño</b>

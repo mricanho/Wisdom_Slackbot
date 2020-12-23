@@ -45,7 +45,7 @@ end
 
 class HelloText
   def self.hello
-    "Hey! You can know the commands if you enter the world 'help' :sunglasses:"
+    "Hey! You can see the commands if you enter the world 'help' :sunglasses:"
   end
 end
 
