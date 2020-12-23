@@ -27,9 +27,9 @@ To run this project locally, please ensure you have Ruby installed on your machi
 ```bash
 git clone https://github.com/mricanho/Wisdom_Slackbot
 ```
-After this you have to create a slack channel to setup the bot
+After this, you have to create a slack channel to set up the bot.
 
-You can achieve it in [here](https://github.com/mricanho)
+You can achieve it [here](https://github.com/mricanho)
 
 https://slack.com/get-started#/create
 
