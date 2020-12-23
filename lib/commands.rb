@@ -5,7 +5,7 @@ require_relative 'library'
 
 module WisdomBot
   module Commands
-    class GetVideo < SlackRubyBot::Commands::Base
+    class GetCommand < SlackRubyBot::Commands::Base
       command 'I want a video' do |client, data, _match|
         url = 'https://www.mysitemapgenerator.com/shareapi/rss/2112252381'
         rss = RSS::Parser.parse(open(url).read, false).items.sample
@@ -28,8 +28,8 @@ module WisdomBot
         client.say(channel: data.channel, text: GiveQuote.random_quote)
       end
 
-      command 'say_hello' do |client, data, _match|
-        client.say(channel: data.channel, text: HelloText.say_hello)
+      command 'hello' do |client, data, _match|
+        client.say(channel: data.channel, text: HelloText.hello)
       end
     end
   end
@@ -44,8 +44,8 @@ class GiveQuote
 end
 
 class HelloText
-  def self.say_hello
-    "Hello! This is a Miguel Ricaño's bot!"
+  def self.hello
+    "Hey! You can know the commands if you enter the world 'help' :sunglasses:"
   end
 end
 

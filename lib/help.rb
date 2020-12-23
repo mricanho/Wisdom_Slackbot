@@ -23,6 +23,11 @@ module WisdomBot
         title 'I want a quote'
         desc 'It gives you a short but deep thought'
       end
+
+      command :quote do
+        title 'hello'
+        desc 'It gives you the first instruction'
+      end
     end
   end
 end
