@@ -43,6 +43,22 @@ When you completed the step above, you will have the API Token of the new bot.
 
 Copy the API Token and go back to your text editor
 
+Create a '.env' file and place the API token in there.
+
+![screenshot](./assets/env_file.jpeg)
+
+It's super important that you place 'SLACK_API_TOKEN=' before the API Token.
+
+The '.env' file it's connected to the '.gitignore' file that comes with the repository, it will protect your API token, and only you can see it.
+
+Now open your terminal, go to the local directory of your repository and enter 'bundle'.
+
+![screenshot](./assets/bundle.jpeg)
+
+This will install all the gems on your local machine.
+
+The last step is set up the local server, and it's easy with the 
+
 
 ### Instructions
 ### Author
