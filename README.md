@@ -41,6 +41,8 @@ When you completed the step above, you will have the API Token of the new bot.
 
 ![screenshot](./assets/newbot_api.jpeg)
 
+Copy the API Token and go back to your text editor
+
 
 ### Instructions
 ### Author
