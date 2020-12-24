@@ -2,6 +2,7 @@
 require 'rss'
 require 'open-uri'
 require_relative 'quotes'
+require_relative 'give_quote'
 
 module WisdomBot
   module Commands
@@ -32,20 +33,6 @@ module WisdomBot
         client.say(channel: data.channel, text: HelloText.hello)
       end
     end
-  end
-end
-
-class GiveQuote
-  include Quotes
-  def self.random_quote
-    values = QUOTES.values
-    values[rand(values.size)]
-  end
-end
-
-class HelloText
-  def self.hello
-    "Hey! You can see the commands if you enter the word 'help' :sunglasses:"
   end
 end
 

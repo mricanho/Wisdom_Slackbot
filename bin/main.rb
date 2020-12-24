@@ -1,3 +1,3 @@
 require 'slack-ruby-bot'
-require 'lib/commands'
-require 'lib/wisdom_bot'
+require_relative '../lib/commands'
+require_relative '../lib/wisdom_bot'

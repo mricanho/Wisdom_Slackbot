@@ -1,4 +1,4 @@
-require './lib/commands'
+require_relative '../lib/commands'
 require_relative 'spec_helper'
 require 'slack-ruby-bot'
 module WisdomBot
