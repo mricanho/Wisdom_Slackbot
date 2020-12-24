@@ -19,6 +19,7 @@ GEM
     concurrent-ruby (1.1.7)
     console (1.10.1)
       fiber-local
+    diff-lcs (1.4.4)
     dotenv (2.7.6)
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
@@ -35,6 +36,20 @@ GEM
     nio4r (2.5.4)
     puma (5.1.1)
       nio4r (~> 2.0)
+    require_relative (1.0.3)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
     ruby2_keywords (0.0.2)
     slack-ruby-bot (0.16.1)
       activesupport
@@ -62,6 +77,8 @@ DEPENDENCIES
   async-websocket (~> 0.8.0)
   dotenv
   puma
+  require_relative (~> 1.0, >= 1.0.3)
+  rspec (~> 3.5)
   slack-ruby-bot
   slack-ruby-client
 
