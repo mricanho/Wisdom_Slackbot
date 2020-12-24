@@ -36,6 +36,7 @@ GEM
     nio4r (2.5.4)
     puma (5.1.1)
       nio4r (~> 2.0)
+    rack (1.6.13)
     require_relative (1.0.3)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
@@ -77,6 +78,7 @@ DEPENDENCIES
   async-websocket (~> 0.8.0)
   dotenv
   puma
+  rack (~> 1.6, >= 1.6.4)
   require_relative (~> 1.0, >= 1.0.3)
   rspec (~> 3.5)
   slack-ruby-bot
