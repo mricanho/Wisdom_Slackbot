@@ -1,7 +1,7 @@
 # rubocop: disable Security/Open
 require 'rss'
 require 'open-uri'
-require_relative 'library'
+require_relative 'quotes'
 
 module WisdomBot
   module Commands
